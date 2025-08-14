@@ -3,15 +3,16 @@ import portfolioImg from './my-portfolio.png';
 import robofriendsImg from './robofriends.png';
 import cloudStorageImg from './cloudstorage.png';
 import ecommerceImg from './ecommerce.png';
+import weatherImg from './weather.png';
 
 function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Portfolio App',
-      description: 'A personal portfolio app built with React to showcase my skills and projects.',
-      image: portfolioImg,
-      link: 'https://my-portfolio-5nz3.vercel.app/',
+      title: 'Weather App – Real-Time Forecasts',
+      description: 'A sleek and responsive weather application that provides up-to-date weather information for any city worldwide. Users can search by location to view current temperature, humidity, wind speed, and detailed weather conditions, all powered by a reliable weather API.',
+      image: weatherImg,
+      link: 'https://weather-app-phi-seven-48.vercel.app/',
     },
     {
       id: 2,
@@ -34,6 +35,14 @@ function Projects() {
       image: ecommerceImg,
       link: 'https://student-project-sand.vercel.app/',
     },
+    {
+      id: 5,
+      title: 'Portfolio App',
+      description: 'A personal portfolio app built with React to showcase my skills and projects.',
+      image: portfolioImg,
+      link: '#',
+    }
+    ,
   ];
 
   return (
