@@ -58,7 +58,7 @@ function Projects() {
       description: 'Netflix Clone is a front-end replica of the Netflix platform built with React and CSS. It mimics the modern streaming UI with a dynamic movie/TV show grid, banners, and hover effects. Data is fetched from The Movie Database (TMDb) API to display trending titles and details.',
       image: netflixImg,
       link: 'https://recipe-app-xfop.vercel.app/',
-    }
+    },
   ];
 
   return (
