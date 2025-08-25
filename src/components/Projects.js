@@ -4,6 +4,8 @@ import robofriendsImg from './robofriends.png';
 import cloudStorageImg from './cloudstorage.png';
 import ecommerceImg from './ecommerce.png';
 import weatherImg from './weather.png';
+import recipeImg from './recipe.png';
+import netflixImg from './netflix.png';
 
 function Projects() {
   const projects = [
@@ -43,6 +45,20 @@ function Projects() {
       link: '#',
     }
     ,
+    {
+      id: 6,
+      title: 'Recipe Ap',
+      description: 'Recipe App is a responsive web application that lets users search and explore recipes from around the world. It connects to a free recipe API (TheMealDB) to fetch real-time meal data including ingredients, instructions, and images.',
+      image: recipeImg,
+      link: 'https://recipe-app-ecru-beta.vercel.app/',
+    },
+    {
+      id: 7,
+      title: 'Netflix Clone App',
+      description: 'Netflix Clone is a front-end replica of the Netflix platform built with React and CSS. It mimics the modern streaming UI with a dynamic movie/TV show grid, banners, and hover effects. Data is fetched from The Movie Database (TMDb) API to display trending titles and details.',
+      image: netflixImg,
+      link: 'https://recipe-app-xfop.vercel.app/',
+    }
   ];
 
   return (
