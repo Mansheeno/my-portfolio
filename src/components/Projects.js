@@ -47,7 +47,7 @@ function Projects() {
     ,
     {
       id: 6,
-      title: 'Recipe Ap',
+      title: 'Recipe App',
       description: 'Recipe App is a responsive web application that lets users search and explore recipes from around the world. It connects to a free recipe API (TheMealDB) to fetch real-time meal data including ingredients, instructions, and images.',
       image: recipeImg,
       link: 'https://recipe-app-ecru-beta.vercel.app/',

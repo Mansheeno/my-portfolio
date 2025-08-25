@@ -11,9 +11,6 @@ function App() {
       <Header />
       <main>
         <About />
-        <div className="bg-green-500 text-white p-6 rounded-lg text-center">
-      Tailwind is working! 🎉
-    </div>s
         <Projects />
         <Contact />
       </main>
