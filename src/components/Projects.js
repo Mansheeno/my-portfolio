@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import portfolioImg from './my-portfolio.png';
 import robofriendsImg from './robofriends.png';
 import cloudStorageImg from './cloudstorage.png';
@@ -6,6 +6,7 @@ import ecommerceImg from './ecommerce.png';
 import weatherImg from './weather.png';
 import recipeImg from './recipe.png';
 import netflixImg from './netflix.png';
+import ecommercesImg from './ecommerces.png';
 
 function Projects() {
   const projects = [
@@ -59,6 +60,14 @@ function Projects() {
       image: netflixImg,
       link: 'https://recipe-app-xfop.vercel.app/',
     },
+{
+  id: 8,
+  title: 'E-Commerce Platform',
+  description: 'An e-commerce web app featuring product listings, cart functionality, and secure checkout.',
+  image: ecommercesImg,
+  link: 'https://e-commerce-app-opal-six.vercel.app/', // ✅ updated with your deployed e-commerce link
+},
+
   ];
 
   return (
